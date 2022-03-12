@@ -9,6 +9,7 @@ chatbot.train_model()
 chatbot.save_model()
 
 
+#THIS IS IN A COG JUST CHANGE commands.Cog.Listsner() to bot.event if u want it in the main file and remove self
 class Ai(commands.Cog):
     def __init__(self, client: commands.Client):
         self.client = client
