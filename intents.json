@@ -1,0 +1,12 @@
+{"intents" :  [
+  {"tag" : "greetings",
+    "patterns": ["Bonjour", "Salut"],
+    "responses": ["Salut, comment vas-tu ?"]
+
+  },
+    {"tag" : "bye",
+    "patterns": ["Au revoir", "Bye", "A plus", "A+"],
+    "responses": ["Au revoir !", "Bonne journée !"]
+
+  }
+]}
